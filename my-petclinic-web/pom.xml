@@ -3,7 +3,7 @@
     <parent>
         <artifactId>my-petclinic</artifactId>
         <groupId>sewa.SpringPractice</groupId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -13,7 +13,7 @@
         <dependency>
             <groupId>sewa.SpringPractice</groupId>
             <artifactId>my-petclinic-data</artifactId>
-            <version>0.0.2-SNAPSHOT</version>
+            <version>0.0.1</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
