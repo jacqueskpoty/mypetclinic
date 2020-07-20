@@ -14,7 +14,7 @@
     </parent>
     <groupId>sewa.SpringPractice</groupId>
     <artifactId>my-petclinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>my-petclinic</name>
     <description>Demo project for Spring Boot</description>
 
