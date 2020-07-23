@@ -1,4 +1,4 @@
-package sewa.springpractice.mypetclinic.Model;
+package sewa.springpractice.mypetclinic.model;
 
 import java.time.LocalDate;
 
