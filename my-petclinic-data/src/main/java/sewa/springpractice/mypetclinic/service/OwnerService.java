@@ -4,7 +4,7 @@ import sewa.springpractice.mypetclinic.model.Owner;
 
 import java.util.Set;
 
-public interface OwnwerService extends CrudService<Owner,Long> {
+public interface OwnerService {
 
     Owner findByLastName(String lastName);
 }
