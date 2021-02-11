@@ -4,6 +4,6 @@ import sewa.springpractice.mypetclinic.model.Vet;
 
 import java.util.Set;
 
-public interface VetService {
+public interface VetService extends CrudService<Long,Vet> {
 
 }

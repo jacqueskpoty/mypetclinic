@@ -1,4 +1,4 @@
-package sewa.springpractice.mypetclinic.Controllers;
+package sewa.springpractice.mypetclinic.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
