@@ -6,9 +6,10 @@ import sewa.springpractice.mypetclinic.model.Vet;
 import sewa.springpractice.mypetclinic.service.OwnerService;
 
 @Service
-public class OwnerServiceMapImpl extends CrudServiceMapImpl<Long, Owner> implements OwnerService {
+public class OwnerServiceMapImpl extends CrudServiceMapImpl<Owner, Long> implements OwnerService {
+
     @Override
     public Owner findByLastName(String lastName) {
-        return null;
+        return this.findByLastName(lastName);
     }
 }

@@ -9,4 +9,5 @@ public interface CrudService<T,ID> {
     T save(ID id,T object);
     void delete(T object);
     void deleteById(ID id);
+    Long getNextId();
 }

@@ -5,5 +5,5 @@ import sewa.springpractice.mypetclinic.model.Vet;
 import sewa.springpractice.mypetclinic.service.VetService;
 
 @Service
-public class VetServiceMapImpl extends CrudServiceMapImpl<Long,Vet> implements VetService {
+public class VetServiceMapImpl extends CrudServiceMapImpl<Vet,Long> implements VetService {
 }
